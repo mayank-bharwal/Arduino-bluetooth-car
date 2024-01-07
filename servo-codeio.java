@@ -4,7 +4,7 @@ Serial port;
 
 void setup() {
   size(200, 200);
-  String portName = Serial.list()[0]; // Adjust this index based on your system
+  String portName = 07:12:05:15:60:07; // Adjust this index based on your system
   port = new Serial(this, portName, 9600);
 }
 
