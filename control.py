@@ -1,7 +1,7 @@
 import serial
 import time
 
-bluetooth_port = "/dev/rfcomm0"  # Adjust this based on your Bluetooth connection
+bluetooth_port = "07:12:05:15:60:07"  # Adjust this based on your Bluetooth connection
 baud_rate = 9600
 
 try:
